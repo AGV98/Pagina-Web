@@ -4,11 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página web</title>
-
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+       table {
+         width: 80%; 
+         margin: 20px auto;
+         border-collapse: collapse;
+         text-align: left;
+         font-family: Arial, Helvetica, sans-serif;
+       }
+       th, td {
+         padding: 12px;
+         border: 1px solid #ccc;
+       }
+       th {
+         background-color: black;
+         color: white;
+       }
+       tr:nth-child(even) {
+         background-color: #f2f2f2;
+       }
+       tr:hover {
+         background-color: #ddd;
+       }
+    </style>
 </head>
-<link rel="stylesheet" href="css/estilos.css"> 
 <body>
-    <h1> HOla, volviendo a estudiar páaginas web</h1>
-    <p> ESto son pruebas para refrescar conocimiento de programacion web</p>
+    <h1>HOla, volviendo a estudiar páaginas web</h1>
+    <p>ESto son pruebas para refrescar conocimiento de programacion web</p>
+    <h2 style="text-align:center;">Lista de usuarios</h2>
+    <table>
+      <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>Pedro</td>
+        <td>28</td>
+        <td>pedro@email.com</td>
+      </tr>
+      <tr>
+        <td>Lucía</td>
+        <td>32</td>
+        <td>lucia@email.com</td>
+      </tr>
+    </table>
 </body>
 </html>
